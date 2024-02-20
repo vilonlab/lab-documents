@@ -1,3 +1,22 @@
+# ViLoN Lab Meeting Notes
+
+# 2024-02-20
+
+> Trent & Lily Talk about Science!
+
+### Lily's Science Interests
+- decided on developmental psych because it's closest to what Lily envisons doing in the future
+    - help students learn, but not be a teacher
+    - learn about deficits, disorders, etc.
+    - help families
+    - background working with children; bearcat buddies, younger family members
+    - interested in the control we have over a child's upbringing
+- specifically picked UC because of the neuropsychology track
+- staying less clinical for now
+- looking for basic research skills for now, eventually clinical (?)
+    - grad programs Lily likes: 2 basic science, 1 clinical
+
+
 # 2024-02-14
 
 # Tentative schedule for the next year:
@@ -30,4 +49,3 @@
 Goals for this week:
 - Lily gets a github account
 - Lily applies for "github education"
-
