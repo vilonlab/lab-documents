@@ -1,6 +1,40 @@
 # Summer
 # ViLoN Lab Meeting Notes
 
+# 2024-05-14 Technical Meeting
+
+## Tools We'll Likely Use:
+### General Tools
+- GitHub (Code & Writing Repository)
+- Discord (Team Comms)
+- [VSCode (Code Editor)](https://code.visualstudio.com/)
+
+### Collecting Data
+- VR/AR Headset
+    - Meta Quest Pro
+    - Vive Eye Pro <- older, tethered, but higher refresh rate
+- Motion Analysis Motion Capture System
+- FreeMoCap
+- Software
+    - Unity Game Engine `C#`
+    
+    `OR`
+
+    - JavaScript
+        - [ThreeJS](https://threejs.org/)
+        - [BabylonJS](https://www.babylonjs.com/) -> `Babylon Native`
+
+### Analyzing Data
+- Python
+
+`AND/OR`
+
+- R
+
+### Writing-Up Data
+- [LaTeX](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+- [Markdown](https://www.markdownguide.org/)
+    
 # 2024-05-14
 
 ## Summer Plans
@@ -30,3 +64,4 @@
 ## Homework
 - Trent invites Reid to Discord, shares reading links
 - Set June Meeting Time
+
