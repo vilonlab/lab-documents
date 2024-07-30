@@ -114,3 +114,54 @@ What does this do?
 - Trent invites Reid to Discord, shares reading links
 - Set June Meeting Time
 
+# 2024-07-30
+## Trents meeting with Bill Warren
+
+dora angelaki - chasing dots through optic flow -- optic flow and extra-retinal signals, dot chasing
+
+Jim Todd & Ecological Optics - Bill: What Neurons are doing is like template matching - Bill has always liked pulling out the differential motion in the same depth, but there aren't a lot of examples of this in natural scenes. Heger and Jepson 1992 paper the subspace algorithm. Bill worked through this paper, Lappe and Raschuk paper, Bill finally understood this; what the subspace algorithm does - it doesn't detect the radial flow pattern, it detects the error in the radial flow pattern. If I have a template that doesn't match the perceived flow, it calculates the error of these flow patterns.
+- Markus Lappe went on to fit this Heeger & Jepson 1992 model
+- this is the best computational solution
+- find the perpendicular error, measure the motion opponency 
+
+the dot chaser experiment is the exact kind of thing that these models are trying to handle
+- models are trying to handle fixating stationary points in the environment
+- including olivers model
+- the case of the flat plane is surprisingly hard
+- some of the models fail because of that -- they're trying to get out the rotational and translational components of the eye's motion
+- they'll take the flow field and break it into two parts
+- by doing this continuously, we're getting a whole series of these instantaneous velocity fields
+- there is some controversy if nuerons can extract more than *A* velocity field - acceleration of a dot, jerk of a dot, etc.
+- Bill: there is almost no evidence that neurons are selective for anything other than velocity
+- Bill just reviewed a paper from a student of Heeger that claimed they found more evidence of neurons 
+
+Questions that people are concerned with:
+- when you add noise into the flow field, most models fall apart
+- the visual system itself has a lot of noise in it
+- noise is a big issue
+- in this kind of case it is interesting to look at: "what are people doing over time?"
+-- do they cancel out all the rotation in the flow field
+-- do they turn and go straight toward it, and eliminate the rotation
+-- some models from the late 80's and 90's Wang and Swap: if you're fixating the target but you're not heading to the target, there will be flow across the line of sight towards the target, if you're going the other way, there is flow in the other direction towards the target
+- there still isn't evidence that the visual system is sensitive to local divergence and curl 
+- Warren et al Nature Neuroscience 2001 
+- rotations in the groundplane around the fixation point are a good idea but you've got to be careful about what you're manipulating
+- Li Li did a lot of work in this space
+- Oliver Layton, too. Built recurrent NN's of MST
+
+- Ken Britton
+
+There hasn't been a very detailed analysis of 
+
+Old results from the cat - more cells responsive to expansion to 
+
+
+Horse Vision: 
+- Eli Pelli; they did weird optics. Take someone who only has foveal vision and see if you take spherical vision and put it in their fovea
+- prism goggle; the phenomonology doesn't flip upsidedown but people learn to adapt to it. but the phenomonology wasn't carefully analyzed 
+
+- literature on adapting to new glasses -- if you get lenses that magnify the world it takes you a while to adapt. In a week, you've adapted to that and the world doesn't look distorted any more. Two calibrations (you calibrate to your glasses and without your glasses) 
+
+
+Bill & Mario realized the limits of TDDC, Kei is now looking at causation entropy (a development of transfer entropy, which is a development of mutual information)
+
