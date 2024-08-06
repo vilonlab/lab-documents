@@ -126,12 +126,12 @@ Jim Todd & Ecological Optics - Bill: What Neurons are doing is like template mat
 
 the dot chaser experiment is the exact kind of thing that these models are trying to handle
 - models are trying to handle fixating stationary points in the environment
-- including olivers model
+- including Olivers model
 - the case of the flat plane is surprisingly hard
 - some of the models fail because of that -- they're trying to get out the rotational and translational components of the eye's motion
 - they'll take the flow field and break it into two parts
 - by doing this continuously, we're getting a whole series of these instantaneous velocity fields
-- there is some controversy if nuerons can extract more than *A* velocity field - acceleration of a dot, jerk of a dot, etc.
+- there is some controversy if neurons can extract more than *A* velocity field - acceleration of a dot, jerk of a dot, etc.
 - Bill: there is almost no evidence that neurons are selective for anything other than velocity
 - Bill just reviewed a paper from a student of Heeger that claimed they found more evidence of neurons 
 
@@ -158,10 +158,50 @@ Old results from the cat - more cells responsive to expansion to
 
 Horse Vision: 
 - Eli Pelli; they did weird optics. Take someone who only has foveal vision and see if you take spherical vision and put it in their fovea
-- prism goggle; the phenomonology doesn't flip upsidedown but people learn to adapt to it. but the phenomonology wasn't carefully analyzed 
+- prism goggle; the phenomenology doesn't flip upside-down but people learn to adapt to it. but the phenomenology wasn't carefully analyzed 
 
 - literature on adapting to new glasses -- if you get lenses that magnify the world it takes you a while to adapt. In a week, you've adapted to that and the world doesn't look distorted any more. Two calibrations (you calibrate to your glasses and without your glasses) 
 
 
 Bill & Mario realized the limits of TDDC, Kei is now looking at causation entropy (a development of transfer entropy, which is a development of mutual information)
 
+# 2024-08-06 -- Oliver Layton
+
+- challenges involved
+	- scenarios we're interested in
+	- Brett & Bill: "Information input space"
+	- combinations of pieces of information that are used for control
+	- it takes a lot of time to build even that stuff up
+	- challenges with the neuroscience itself - there's a lot we don't know
+	- the problem is so under-constrained
+		- we know a lot about the retina
+		- we know about V1
+		- but as the information goes up, we don't know what's going on
+		- we don't know enough about it to know what exactly is doing
+		- a lot of Oliver's work is positing how the brain might behave 
+		- fundamental problems that we don't know much about
+		- example bottleneck: rotation problem 
+			- "is the brain doing this visually or with extra-retinal signals?"
+- a whole other "leg of the stool" is the modeling approach
+	- e.g., deep learning. Set up architecture, click go, analyze the properties
+	- what kind of deep learning is best for task
+	- deep learning model might solve the problem, but you don't know how it's doing it
+	- you can do neuroscience on deep neural nets, but is it worth your time and attention to do it on *that* network. 
+		- you might find x y and z
+- problem with Jon and Kate dataset is that it's unlabeled - you don't know what the heading is, about the ground truth - it's basically "unsupervised"
+> heading vs. foot placement
+
+- basic dataset -> "that would be perfect"
+	- very specific task, label the data accurately
+	- collect a lot of it
+	- that would be useful - probably more useful than the Jon dataset 
+- the Jon and Kate story about retinal optic flow is too extreme to be true
+	- their argument is kind of a strawman, it's not supported by the data that exists out there
+	- you can get really similar patterns for different motion
+	- you can also get very different flow patterns for similar motion
+- another hot topic in optic flow right now is "flow parsing" - estimate the motion of a moving object with flow coordinates
+	- there is evidence that the brain is transforming the motion of the object from retinal to world-coordinates
+	- what are the invariants?
+		- "invariant detection"
+
+Plan: experiment is great - send Oliver details in September when the project starts to solidify so we can talk about labeling/organizing the data in a way that is meaningful to him
